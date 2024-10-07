@@ -6,9 +6,7 @@ body{
     height: 100vh;
     background: radial-gradient(#555, #111)
 }
-webfont{
-font-size:10px;
-font-family:Courier New;
+
 footer{
     font-size: 10px;
     text-align: center;
