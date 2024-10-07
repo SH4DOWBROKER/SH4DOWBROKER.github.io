@@ -1,0 +1,461 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="particles-js"></div>
+        <div id="wrapper">
+
+    <title>SHADOWBROKER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Permanent+Marker|Courgette|Berkshire+Swash|Cookie|Damion|Homemade+Apple|Italianno|Itim|Leckerli+One|Marck+Script|Merienda|Mr+Dafoe|Norican|Parisienne|Montserrat|Prompt|Charm" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="script.js"></script>
+    <div class="container center">
+
+        <div class="btn">
+            <span><i class="fas fa-arrow-left"></i></span>
+            <span><i class="fas fa-ellipsis-v"></i></span>
+            <label class="switch">
+                  <input type="checkbox" onchange="toggle(this)">
+                  <span class="slider"></span>
+            </label>
+
+        </div>
+
+        <div class="img">
+            <img src="IMG_3983.PNG" alt="avatar">
+        </div>
+
+        <div class="data">
+
+            <span class="name">Adithyan S</span>
+
+            <span class="desg">Self learner</span>
+            <span class="tag">Ethical Hacker jr || Web Developer </span>
+
+            <center>
+            <p style="font-family:'Courier New'">𝗛𝗘𝗬 𝗧𝗛𝗘𝗥𝗘, 𝗜'𝗠 𝗔𝗗𝗜𝗧𝗛𝗬𝗔𝗡,𝗜'𝗠 𝗔 𝗖𝗘𝗥𝗧𝗜𝗙𝗜𝗘𝗗 𝗘𝗧𝗛𝗜𝗖𝗔𝗟 𝗛𝗔𝗖𝗞𝗘𝗥 𝗝𝗥,𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗖𝗧𝗙'𝗦....! 𝗔𝗦 𝗔 𝗛𝗢𝗕𝗕𝗬 𝗧𝗢 𝗜𝗠𝗣𝗥𝗢𝗩𝗘 𝗦𝗞𝗜𝗟𝗟𝗦 </p>
+            </center>
+        </div>
+
+        <div class="social">
+
+            <span><a href="https://www.instagram.com/sh4dowbroker/"><i class="fab fa-instagram"></i></a></span>
+            <span><a href="https://wa.me/919446083230"><i class="fab fa-whatsapp"></i></a></span>
+            <span><a href="https://github.com/SH4DOWBROKER"><i class="fab fa-github"></i></a></span>    
+            
+
+        </div>
+        <center>
+        <script src="https://tryhackme.com/badge/653015"></script>
+        <br>
+        <a href="https://wigle.net">
+            <img border="0" src="https://wigle.net/bi/MZAdtoNiCPyC98_W0fi2Xg.png">
+            </a>
+    </div>
+        <div class="text-container">
+    <h1>AGENT SUDO</h1>
+        </div>
+        
+        
+</html>
+</div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+        </body>
+        <audio controls style="display:none;" loop   id="a"  >>
+    <source src="https://j.top4top.io/m_3198wyr8t1.mp3">
+<script>
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("a").play();
+}
+</script>
+
+<script>
+
+function toggle(ele){
+    var bg = document.querySelector(".container");
+    var btn = document.querySelectorAll(".btn span");
+    var data = document.querySelectorAll(".data span");
+    var social = document.querySelectorAll(".social span");
+    var follower = document.querySelectorAll(".followers span");
+    var following = document.querySelectorAll(".following span");
+    if(ele.checked ==true){
+
+        bg.style.background = "#333";
+
+        for( b of btn)
+            b.style.color = "rgba(255, 255, 255, .7)";
+
+        data[0].style.color = "#fff";
+        data[1].style.color = "#71758d";
+        data[2].style.color = "rgba(255, 255, 255, .7)";
+
+        for( s of social)
+            s.style.color = "#767991";
+
+        follower[1].style.color = "#fff";
+        follower[2].style.color = "#767991";
+
+        following[1].style.color = "#fff";
+        following[2].style.color = "#767991";
+
+    } else{
+
+        bg.style.background = "#fff";
+
+        for( b of btn)
+            b.style.color = "rgba(0, 0, 0, .7)";
+
+        data[0].style.color = "#000";
+        data[1].style.color = "#9b9b9b";
+        data[2].style.color = "#535353";
+
+        for( s of social)
+            s.style.color = "#808080";
+
+        follower[1].style.color = "#000";
+        follower[2].style.color = "#c2c6d6";
+
+        following[1].style.color = "#000";
+        following[2].style.color = "#c2c6d6";
+    }
+}
+</script>
+
+<style>
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#555, #111)
+}
+/* Card Container CSS */
+.container{
+    overflow-x: auto;
+    background: white;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Top Buttons CSS */
+.btn{
+    position: relative;
+    height: 20px;
+}
+.btn span:nth-child(1){
+    position: absolute;
+    left: 10px;
+    color: rgb(0, 0, 0, .7);
+    transition: all 1s ease;
+}
+.btn span:nth-child(2){
+    position: absolute;
+    right: 30px;
+    color: rgb(0, 0, 0, .7);
+    transition: all 1s ease;
+}
+.btn span:nth-child(3){
+    position: absolute;
+    right: 10px;
+    color: rgb(0, 0, 0, .7);
+    transition: all 1s ease;
+}
+.btn .switch{
+    right: 60px;
+}
+
+
+/* Image CSS */
+.img{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 20px auto auto auto;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+
+}
+.img img{
+    width: 120px;
+    height: auto;
+}
+
+/* User Data CSS*/
+.data{
+    position: relative;
+    margin-top: 10px;
+}
+.data span{
+    display: block;
+}
+.data span:nth-child(1){
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 1s ease;
+}
+.data span:nth-child(2){
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    color: #9b9b9b;
+    font-family: 'Prompt',sans-serif;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+.data span:nth-child(3){
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 900;
+    text-align: center;
+    color: #535353;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 1s ease;
+}
+.tryhackme{
+    position: relative;
+    text-align: center;
+}
+/* Social Icon CSS*/
+.social{
+    position: relative;
+    margin-top: 15px;
+    text-align: center;
+    transition: all 1s ease;
+}
+.label{
+    font-weight: 60px;
+    color: grey;
+}
+.social span{
+    font-size: 20px;
+    color: #808080;
+    transition: all 1s ease;
+}
+.social span:nth-child(2){
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 1s ease;
+}
+
+/* Follow Button CSS*/
+.button{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    border-radius: 10px;
+    background: skyblue;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .8);
+}
+hr{
+    display: block;
+    margin-top: 15px;
+}
+/* Followers CSS*/
+.stat{
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    text-align: center;
+}
+
+.stat .followers span:nth-child(1){
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto auto 5px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.stat .followers span:nth-child(1) img{
+    width: 50px;
+    height: auto;
+}
+.stat .followers span:nth-child(2){
+    font-size: 25px;
+    display: block;
+    font-weight: 900;
+    transition: all 1s ease;
+}
+.stat .followers span:nth-child(3){
+    display: block;
+    font-weight: bolder;
+    color: #c2c6d6;
+    transition: all 1s ease;
+}
+
+.stat .following span:nth-child(1){
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto auto 5px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.stat .following span:nth-child(1) img{
+    width: 50px;
+    height: auto;
+}
+.stat .following span:nth-child(2){
+    font-size: 25px;
+    display: block;
+    font-weight: 900;
+    transition: all 1s ease;
+}
+.stat .following span:nth-child(3){
+    display: block;
+    font-weight: bolder;
+    color: #c2c6d6;
+    transition: all 1s ease;
+}
+/* Toggle Button */
+.switch input[type=checkbox]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch{
+    position: absolute;
+    top: -2px;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+}
+.slider {
+      position: absolute;
+      width: 50px;
+      border-radius: 20px;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2196F3;
+      -webkit-transition: .4s;
+      transition: .4s;
+}
+
+.slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      top: 2px;
+      border-radius: 50%;
+      background-color: white;
+      transition: .4s;
+}
+input:checked + .slider {
+      background-color: #fff;
+}
+input:checked + .slider:before {
+    background-color: #2196F3;
+      transform: translateX(22px);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+}
+
+.text-container h1{
+  font-size: 40px;
+  color: rgba(225,225,225, .1);
+  background-image: url("https://s31.postimg.cc/yaze1agjv/abstract-background-canvas-249798.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-sizxe: cover;
+  -webkit-background-clip:text;
+  animation: animate 15s linear infinite;
+  text-align: center;
+  margin-top: 0%;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+  @keyframes animate {
+    0%{
+      background-position: left 0px top 10px;
+    }
+    40%{
+      background-position: left 800px top 10px;
+  }
+
+body,html
+{
+    height: 100%
+}
+#particles-js canvas
+{
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+canvas
+{
+    display:block;
+    position: fixed;
+    z-index: -1;
+}
+</style>
+
+<!--<span class="typewriter" style="font-size: 12px;"><p style="color:green;">[root@$hadowbroker][~]
+<br> #&nbsp;<a href="" class="typewrite" style="color: white !important;" data-period="2000" data-type="[ &quot;what we will do tomorrow, Requires us to think about the present, Not the past. !&quot;]"><span class="wrap">sysinfo</span></body>
+-->
+</html>
